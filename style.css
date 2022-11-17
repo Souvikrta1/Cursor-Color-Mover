@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-bar{
+    margin-top: 1%;
+   margin-left: 5%;
+   display: flex;
+}
+
+.left-bar h1{
+    color: red;
+    margin-right: 20%;
+}
+
+#signup{
+    margin-top: 1%;
+    margin-right: 10%;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+main h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+#struggling{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+main p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+#tutorial{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#example-div{
+    background-color: red;
+    width: 200px;
+    height: 700px;
+}
